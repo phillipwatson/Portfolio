@@ -1,0 +1,146 @@
+/*--------Global Style--------*/
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  background-color: #24574B;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 400;
+  color: white;
+}
+
+h2{
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+h3{
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+}
+
+h5{
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: white;
+}
+
+p{
+  font-weight: 100;
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.6rem
+}
+
+/*--------Nav--------*/
+
+.nav{
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.navitems, .logo{
+  flex: 1;
+  font-size: 1.6em;
+}
+
+.navitems{
+  text-align: right;
+}
+
+li, a{
+  display: inline;
+  text-decoration: none;
+  color: white;
+  margin-left: 3%;
+}
+
+/*--------landing--------*/
+
+.homepagephoto{
+  width: 80%;
+}
+
+.logotext, .bio{
+  color: white;
+}
+
+.landingwrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20em;
+  margin-top: 10em
+}
+
+.landingL{
+  width: 80%;
+}
+
+.landingR{
+  width: 90%;
+}
+
+/*--------landing--------*/
+
+.logowrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 20em 0;
+}
+
+.logoL{
+  width: 80%;
+}
+
+.logoR{
+  width: 90%;
+}
+
+/*--------cast--------*/
+
+.castwrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 20em 0;
+}
+
+.castL{
+  width: 80%;
+}
+
+.castR{
+  width: 90%;
+}
+
+/*--------Superscribe--------*/
+.scribewrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 20em 0;
+}
+
+.scribeL{
+  width: 80%;
+}
+
+.scribeR{
+  width: 90%;
+}
+
+.logotext{
+
+}
